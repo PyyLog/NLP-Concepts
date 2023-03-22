@@ -1,0 +1,3 @@
+Les Creepers sont des créatures humanoïdes ayant la peau verte parsemée de points gris, avec quatre pattes et aucun bras. Cela est dû au fait qu'ils soient basés sur un modèle de cochon raté par Notch. Leur tête est dans la continuité du corps, ils ont les orbites vides et une expression triste. Notch qualifie les Creepers de « croustillants, comme des feuilles mortes ».
+
+Les Creepers sont silencieux, mis à part les bruits communs à toutes les créatures tels les bruits de pas ou les clapotements dans l'eau. Ils émettent toutefois quelques bruits, notamment lorsqu'ils prennent un coup ainsi que le son caractéristique qui se déclenche 1,5 seconde avant leur explosion. Quand on l'entend, il est donc souvent trop tard.
