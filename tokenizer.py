@@ -81,6 +81,7 @@ class Tokenization:
 text1 = "TypeScript a été conçu pour pallier les lacunes de JavaScript pour le développement d'applications à grande échelle à la fois chez Microsoft et chez leurs clients externes. Les défis liés à la gestion de code JavaScript complexe ont conduit à une demande d'outils personnalisés pour faciliter le développement de composants dans le langage."
 text2 = "we are studying every day, the faster the better but quality is what matter most for engineers"
 test = Tokenization(text=text2, language="english")
-final_matrix, occurences = test.run()
+"""final_matrix, occurences = test.run()
 print(final_matrix)
-print(occurences)
+print(occurences)"""
+#print(test.splitted_text)
