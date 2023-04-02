@@ -2,7 +2,7 @@ import json
 
 
 class Tokenization:
-    def __init__(self, text, language):
+    def __init__(self, text, language='french'):
         self.separators = {":", ";", ",", "(", ")", " ", "'", "...", "·", "—", "’", "*", "«", "»"}
         self.lowercased_text = text.lower()
         self.splitted_text = self.remove_inphrase_punctuation().split()
@@ -69,7 +69,7 @@ class Tokenization:
 
         return unique_words_matrix, occurences_list
 
-    def run(self):
+    def tokenize(self):
         text_matrix = self.get_text_matrix()
         cleaned_text_matrix = self.get_split_words(text_matrix)
         important_text_matrix = self.remove_useless_words(cleaned_text_matrix)
@@ -78,10 +78,10 @@ class Tokenization:
         return final_matrix, occurences
 
 
-text1 = "TypeScript a été conçu pour pallier les lacunes de JavaScript pour le développement d'applications à grande échelle à la fois chez Microsoft et chez leurs clients externes. Les défis liés à la gestion de code JavaScript complexe ont conduit à une demande d'outils personnalisés pour faciliter le développement de composants dans le langage."
-text2 = "we are studying every day, the faster the better but quality is what matter most for engineers"
-test = Tokenization(text=text2, language="english")
-"""final_matrix, occurences = test.run()
-print(final_matrix)
-print(occurences)"""
-#print(test.splitted_text)
+# text1 = "TypeScript a été conçu pour pallier les lacunes de JavaScript pour le développement d'applications à grande échelle à la fois chez Microsoft et chez leurs clients externes. Les défis liés à la gestion de code JavaScript complexe ont conduit à une demande d'outils personnalisés pour faciliter le développement de composants dans le langage."
+# text2 = "we are studying every day, the faster the better but quality is what matter most for engineers"
+# tokenizer = Tokenization(text=text2, language="english")
+# final_matrix, occurences = tokenizer.tokenize()
+# print(final_matrix)
+# print(occurences)
+# print(test.splitted_text)
